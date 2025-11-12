@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <input required minlength="3" maxlength="15" type="text" name="name" placeholder="Enter Name"><br>
+        <input type="email" name="email" placeholder="Enter Email"><br>
+        
+        <input type="password" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[^A-Za-z0-9])(?!.*\s).{8,}$" name="pwd" placeholder="Enter Password"><br>
+
+        Gender:<input type="radio" name="gender" value="M">Male
+        <input type="radio" name="gender" value="F">Female<br>
+        <input type="number" name="age"  min="18" max="60" placeholder="Age"><br>
+        
+        
+        Choose Electives:<br><input type="checkbox" name="elective" value="Python">Python Programming <br>
+        <input type="checkbox" name="elective" value="Java">Java Programming <br>
+        <input type="checkbox" name="elective" value="Django">Web Development using Django <br>
+        <input type="checkbox" name="elective" value="AI">Artificial Intelligence<br>
+
+        DOB:<input type="date" name="dob" ><br>
+        Salary:<input type="number" name="sal" ><br>
+        Check in Time:<input type="time" name="ct" ><br>
+        <textarea name="add" cols="30" rows="3" placeholder="Enter your Address"></textarea><br>
+
+        Department:<select name="dept">
+         <option value="none">--Select--</option> ,<br>  
+         <option value="csai">Computer science with AI</option> ,<br>  
+         <option value="cs">Computer science</option> ,<br>  
+         <option value="mca">Master of Computer Applications</option> ,<br>  
+
+        </select><br>
+
+
+        <input type="submit" value="Save">
+        <input type="reset" value="Clear All">
+        
+    </form>
+</body>
+</html>
+
+
+</body>
+</html>
