@@ -8,28 +8,30 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     <style>
-        div{
-            border:1px solid;
-        }
+       
         .title{
             font-size: 40px;
             font-weight: bold;
         }
         .bic{
-            color:cadetblue;
+            color:rgb(12,169,124);
             font-size: 50px;
         }
+        .indi{
+          background-color:rgb(244,123,29) ;
+        }
+        
     </style>
    
 </head>
 <body>
     <!-- ROW 1-->
     <div class="row">
-        <div class="col-1"><img src="rk.jpg" width="100%">
+        <div class="col-1"><img src="rk.jfif" width="100%">
             
         </div>
-        <div class="col-4"><span class="title" style="color: cadetblue;">RK</span>
-       <span class="title" style="color: orangered;">Hospitals</span></div>
+        <div class="col-4"><span class="title" style="color:rgb(12,169,124);">RK</span>
+       <span class="title" style="color: rgb(244,123,29);">Hospitals</span></div>
 
         <div class="col-3">
             <i class="bi bi-linkedin bic"></i>
@@ -37,12 +39,47 @@
             <i class="bi bi-instagram bic"></i>
 
         </div>
-        <div class="col-3" st>Welcome!</div>
+        <div class="col-3" style="font-size: 15px;;font-family: 'Times New Roman', Times, serif;">Welcome!</div>
         <div class="col-1"><a href="" style="color: darkred;font-size: 20px;text-decoration: none;">Logout</a></div>
     </div>
     <!--Row 2-->
-    <div class="row">
-        <div class="col-9"></div>
+
+    <div class="row" style="background-color:  rgb(244,123,29);">
+        <div class="col-9">
+          <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Achivements</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            About
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Management</a></li>
+            <li><a class="dropdown-item" href="#">Re-search</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">More</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+        </div>
         <div class="col-3">
          <div class="input-group mb-3">
          <input type="text" class="form-control" placeholder="Search" aria-label="Recipient’s username" aria-describedby="basic-addon2">
@@ -53,10 +90,18 @@
         </div>    
         </div>
     <!--Row3-->
-    <div class="row"></div>
+    <div class="row">
+      <div class="row">
+        <div class="col-12">
+            <marquee behavior="" direction="">
+                <h1>Welcome To RK Hospitals</h1>
+            </marquee>
+        </div>
+    </div>    
+    </div>
     <!--Row 4-->
     <div class="row">
-        <div id="carouselExampleIndicators" class="carousel slide" class="carousel slide" data-bs-ride="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide indi" class="carousel slide indi" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
@@ -69,16 +114,16 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active" >
-                <img src="hb1.jpeg" class="d-block w-100" alt="...">
+                <img src="hb1.jfif" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="hb2.jpeg" class="d-block w-100" alt="...">
+                <img src="hb2.jfif" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="hb3.jpeg" class="d-block w-100" alt="...">
+                <img src="hb3.jfif" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="hb4.jpeg" class="d-block w-100" alt="...">
+                <img src="hb4.jfif" class="d-block w-100" alt="...">
             </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -94,15 +139,42 @@
     </div>
     </div>
     <!--Row 5-->
-    <div class="row">
-         <div class="card" style="width: 18rem;">
-  <div class="card-body">
-    <h5 class="card-title"><img src="hb5.jpeg" alt=""></h5>
-    <p class="card-text">The Final Encounter! </p>
-    <a href="https://www.hotstar.com/in/home" class="btn btn-primary">More</a>
-  </div>
+   <div class="row">
+            <div style="display: flex;">
+      <div class="card" style="width: 18rem;">
+      <img src="hb5.jfif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">HB2</h5>
+        <p class="card-text">The Rythm of Life!</p>
+        <a href="https://www.hotstar.com/in/home" class="btn btn-primary">go</a>
+      </div>
     </div>
-
-
+    <div class="card" style="width: 18rem;">
+      <img src="hb5.jfif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">HB2</h5>
+        <p class="card-text">The Rythm of Life!</p>
+        <a href="https://www.hotstar.com/in/home" class="btn btn-primary">go</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="hb5.jfif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">HB2</h5>
+        <p class="card-text">The Rythm of Life!</p>
+        <a href="https://www.hotstar.com/in/home" class="btn btn-primary">go</a>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="hb5.jfif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">HB2</h5>
+        <p class="card-text">The Rythm of Life!</p>
+        <a href="https://www.hotstar.com/in/home" class="btn btn-primary">go</a>
+      </div>
+    </div>
+    </div>
+    </div>
+</body>
 </body>
 </html>
